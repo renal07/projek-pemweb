@@ -1,0 +1,111 @@
+.home-main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Kotak Iklan */
+.ad-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.ad-img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.ad-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ad-btn:first-child {
+  left: 0;
+}
+
+.ad-btn:last-child {
+  right: 0;
+}
+
+/* Rekomendasi Menu */
+.menu-recommendations {
+  margin-top: 50px;
+}
+
+.menu-recommendations h3 {
+  font-size: 1.8rem;
+  color: #b22222;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.menu-list li {
+  margin: 10px 0;
+}
+
+/* Galeri Gambar */
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-item {
+  text-align: center;
+  width: 150px;
+}
+
+.menu-item p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Bungkus Iklan dengan latar biru muda */
+.ad-wrapper {
+  background-color: #d0e7ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.recommendation-wrapper {
+  background-color: #ffe5e5;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-top: 40px;
+}

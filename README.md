@@ -1,4 +1,4 @@
-link youtube presentasi final: https://youtu.be (presentasi projek)     <br>
+link youtube presentasi final: https://youtu.be/6hi2lopJYhQ?si=c3g_bgoVWgzk271p (presentasi projek)     <br>
 link youtube awal: https://youtu.be/uQIWQ4GCjOc?si=JZAyVkBAmYTQdFMZ (sementara, baru sebagian)     <br>
 
 link repositori lama: https://github.com/renal07/kedai-ramen.git (projek UTS)
